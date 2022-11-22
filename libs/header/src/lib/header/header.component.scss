@@ -1,0 +1,9 @@
+button {
+    border: 0px;
+    //border-radius: 10px;
+    height: 70px;
+    width:33%;
+    &:hover {
+        opacity: 0.5;
+    }
+}
