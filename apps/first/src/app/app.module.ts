@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { LibraryComponent } from './library/library.component';
 import { OtherProjectComponent } from './other-project/other-project.component';
 import { HeaderModule } from '../../../../libs/header/src/lib/header.module';
-import { UiLibraryModule } from './ui-library/ui-library.module';
+//import { UiLibraryModule } from './ui-library/ui-library.module';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { UiLibraryModule } from './ui-library/ui-library.module';
     AppRoutingModule,
     SharedModule,
     HeaderModule,
-    UiLibraryModule,
+    //UiLibraryModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
